@@ -1,0 +1,28 @@
+.gradient-background {
+    background: linear-gradient(135deg, #003366, #000000); 
+    color: white;  
+    padding: 20px 0; 
+  }
+  
+
+  .font-small {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .text-red {
+    color: #E94560; 
+  }
+  
+  .tech-icon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .mw-fc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

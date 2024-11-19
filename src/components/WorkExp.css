@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #16213E;
+    color: white;
+}
+
+.work-exp-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    padding-top: 2%;  
+    padding-right: 15%; 
+    background-color: #16213E;
+}
+
+.work-exp-content {
+    margin-left: -40px; 
+    padding-left: 10px; 
+}
+
+.work-experience {
+    margin-bottom: 30px;
+}
+
+.work-experience h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #E94560; 
+}
+
+.work-experience li::marker {
+    font-size: 1.2rem;
+    margin-right: 10px; 
+}
+
+.work-experience ul {
+    list-style-type: disc;
+    padding-left: 20px; 
+
+}
+
+.work-experience li {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ddd;
+    vertical-align: middle;
+    margin-bottom: 5px
+   
+}
+
+
+@keyframes slideInTop {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-top {
+    animation: slideInTop 1s ease-out;
+}
+
+.slide-in-bottom {
+    animation: slideInBottom 1s ease-out;
+}
+
+.font-big {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #E94560;
+}
+
+.text-red {
+    color: #E94560;
+}
