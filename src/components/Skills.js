@@ -18,16 +18,16 @@ function Languages() {
       <div className="row my-2">
       <h1 className="font-small text-red slide-in-top">Languages</h1>
         {[
-          { name: ' Python', img: '/images/python.png' },
-          { name: ' Java', img: '/images/java.svg' },
-          { name: '  C', img: '/images/c.png' },
-          { name: ' Java Server Pages', img: '/images/jsp.png' },
-          { name: ' HTML', img: '/images/html.png' },
-          { name: ' CSS', img: '/images/css.png' },
-          { name: ' Java Script', img: '/images/js.png' },
-          { name: ' Node', img: '/images/nodejs.svg' },
-          { name: ' React', img: '/images/react.png' },
-          { name: ' Express', img: '/images/Expressjs.png' },
+          { name: ' Python', img: `${process.env.PUBLIC_URL}/images/python.png` },
+          { name: ' Java', img: `${process.env.PUBLIC_URL}/images/java.svg` },
+          { name: '  C', img: `${process.env.PUBLIC_URL}/images/c.png`},
+          { name: ' Java Server Pages', img: `${process.env.PUBLIC_URL}/images/jsp.png`},
+          { name: ' HTML', img: `${process.env.PUBLIC_URL}/images/html.png`},
+          { name: ' CSS', img: `${process.env.PUBLIC_URL}/images/css.png`},
+          { name: ' Java Script', img: `${process.env.PUBLIC_URL}/images/js.png`},
+          { name: ' Node', img: `${process.env.PUBLIC_URL}/images/nodejs.svg`},
+          { name: ' React', img: `${process.env.PUBLIC_URL}/images/react.png`},
+          { name: ' Express', img: `${process.env.PUBLIC_URL}/images/Expressjs.png`},
           
           
         ].map((lang, index) => (
@@ -50,9 +50,9 @@ function Databases() {
       <div className="row my-2">
         <h1 className="font-small text-red slide-in-top">Databases</h1>
         {[
-          { name: 'MySQL', img: '/images/mysql.svg' },
-          { name: 'MongoDB', img: '/images/mongodb.svg' },
-          { name: 'PostgreSQL', img: '/images/postgresql.svg' },
+          { name: 'MySQL', img: `${process.env.PUBLIC_URL}/images/mysql.svg`},
+          { name: 'MongoDB', img: `${process.env.PUBLIC_URL}/images/mongodb.svg`},
+          { name: 'PostgreSQL', img: `${process.env.PUBLIC_URL}/images/postgresql.svg`},
         ].map((db, index) => (
           <div key={index} className="mx-2 my-3 border rounded py-1 px-2 mw-fc">
             <span>
@@ -72,13 +72,13 @@ function TechFw() {
       <div className="row my-2">
         <h1 className="font-small text-red slide-in-top">Technologies/ Frameworks </h1>
         {[
-          { name: '  Django', img: '/images/django.png' },
-          { name: ' Github', img: '/images/github.png' },
-          { name: ' REST API', img: '/images/restapi.png' },
-          { name: ' Bootstrap', img: '/images/bootstrap.png' },
-          { name: ' Linux', img: '/images/linux.svg' },
-          { name: ' JUnit', img: '/images/junit.png' },
-          { name: ' Selenium', img: '/images/selenium.png' },
+          { name: '  Django', img: `${process.env.PUBLIC_URL}/images/django.png`},
+          { name: ' Github', img: `${process.env.PUBLIC_URL}/images/github.png`},
+          { name: ' REST API', img: `${process.env.PUBLIC_URL}/images/restapi.png` },
+          { name: ' Bootstrap', img: `${process.env.PUBLIC_URL}/images/bootstrap.png`},
+          { name: ' Linux', img: `${process.env.PUBLIC_URL}/images/linux.svg`},
+          { name: ' JUnit', img: `${process.env.PUBLIC_URL}/images/junit.png`},
+          { name: ' Selenium', img: `${process.env.PUBLIC_URL}/images/selenium.png`},
         ].map((tech, index) => (
           <div key={index} className="mx-2 my-3 border rounded py-1 px-2 mw-fc">
             <span>
@@ -98,8 +98,8 @@ function CloudComp() {
       <div className="row my-2">
         <h1 className="font-small text-red slide-in-top"> Cloud Computing / DevOps</h1>
         {[
-          { name: '  AWS', img: '/images/aws.jpg' },
-          { name: '  Docker', img: '/images/docker.svg' },
+          { name: '  AWS', img: `${process.env.PUBLIC_URL}/images/aws.jpg`},
+          { name: '  Docker', img: `${process.env.PUBLIC_URL}/images/docker.svg`},
         ].map((cc, index) => (
           <div key={index} className="mx-2 my-3 border rounded py-1 px-2 mw-fc">
             <span>
@@ -119,8 +119,8 @@ function AppServ() {
       <div className="row my-2">
         <h1 className="font-small text-red slide-in-top"> Application Servers</h1>
         {[
-          { name: '  Tomcat', img: '/images/tomcat.svg' },
-          { name: '  JBoss', img: '/images/jboss.jpg' },
+          { name: '  Tomcat', img: `${process.env.PUBLIC_URL}/images/tomcat.svg`},
+          { name: '  JBoss', img: `${process.env.PUBLIC_URL}/images/jboss.png`},
         ].map((appserv, index) => (
           <div key={index} className="mx-2 my-3 border rounded py-1 px-2 mw-fc">
             <span>

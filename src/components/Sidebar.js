@@ -56,7 +56,7 @@ function Sidebar() {
                   <div className="mx-2">
                     <a href="mailto:ckasala7@gmail.com" target="_blank" rel="noopener noreferrer">
                       <img
-                        src="../images/email-logo.svg"  
+                        src={`${process.env.PUBLIC_URL}/images/email-logo.svg`}   
                         alt="Email"
                         className="img-fluid img-curved"
                         style={{ maxWidth: '35px',borderRadius: '15px' }} 
@@ -67,7 +67,7 @@ function Sidebar() {
                   <div className="mx-2">
                     <a href="https://www.linkedin.com/in/charan-kasala-021035297/" target="_blank" rel="noopener noreferrer">
                       <img
-                        src="../images/linkedin.png"  
+                        src={`${process.env.PUBLIC_URL}/images/linkedin.png`} 
                         alt="LinkedIn"
                         className="img-fluid img-curved"
                         style={{ maxWidth: '35px',borderRadius: '15px' }} 
@@ -78,7 +78,7 @@ function Sidebar() {
                   <div className="mx-2">
                     <a href="https://github.com/CharanKasala/" target="_blank" rel="noopener noreferrer">
                       <img
-                        src="../images/github.png"  
+                        src={`${process.env.PUBLIC_URL}/images/github.png`} 
                         alt="GitHub"
                         className="img-fluid img-curved"
                         style={{ maxWidth: '35px',  borderRadius: '15px'}}
