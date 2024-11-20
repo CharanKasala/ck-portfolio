@@ -19,7 +19,7 @@ function Sidebar() {
                     </Link>
                     <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li className="nav-item">
-                            <NavLink to="/" className="nav-link align-middle px-0 text-white">
+                            <NavLink to="/home" className="nav-link align-middle px-0 text-white">
                                 <VscHome className='fs-5'/> <span className="ms-1 d-none d-sm-inline">Home</span>
                             </NavLink>
                         </li>

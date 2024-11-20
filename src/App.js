@@ -1,5 +1,5 @@
 import './App.css';
-import {Routes,Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 import WorkExp from './components/WorkExp';
 import Home from './components/Home';
 import Sidebar from './components/Sidebar';
@@ -9,12 +9,14 @@ import Projects from './components/Projects';
 
 function App() {
   return (
+    <Router>
     <div className="app-container container-fluid">
       <div className="row flex-nowrap">
         
         <Sidebar></Sidebar>
         <Routes>
-          <Route path="/" element={ <Home/> } exact></Route>
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={ <Home/> }></Route>
           <Route path="/WorkExp" element={<WorkExp/>}></Route>
           <Route path="/skills" element={<Skills/>}></Route>
         {/*  <Route path="/resume" element={<Resume/>}></Route> */}
@@ -23,6 +25,7 @@ function App() {
 
       </div>
     </div>
+    </Router>
   );
 }
 
