@@ -26,8 +26,8 @@ function Languages() {
           { name: ' CSS', img: `${process.env.PUBLIC_URL}/images/css.png`},
           { name: ' Java Script', img: `${process.env.PUBLIC_URL}/images/js.png`},
           { name: ' Node', img: `${process.env.PUBLIC_URL}/images/nodejs.svg`},
-          { name: ' React', img: `${process.env.PUBLIC_URL}/images/react.png`},
-          { name: ' Express', img: `${process.env.PUBLIC_URL}/images/Expressjs.png`},
+          { name: ' React', img: `${process.env.PUBLIC_URL}/images/reactjs.svg`},
+          { name: ' Express', img: `${process.env.PUBLIC_URL}/images/expressjs.png`},
           
           
         ].map((lang, index) => (
@@ -120,7 +120,7 @@ function AppServ() {
         <h1 className="font-small text-red slide-in-top"> Application Servers</h1>
         {[
           { name: '  Tomcat', img: `${process.env.PUBLIC_URL}/images/tomcat.svg`},
-          { name: '  JBoss', img: `${process.env.PUBLIC_URL}/images/jboss.png`},
+          { name: '  JBoss', img: `${process.env.PUBLIC_URL}/images/jboss.jpg`},
         ].map((appserv, index) => (
           <div key={index} className="mx-2 my-3 border rounded py-1 px-2 mw-fc">
             <span>
