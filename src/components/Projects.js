@@ -57,8 +57,20 @@ function Projects() {
               </div>
             </div>
           </div>
-{/*}
+
           <div className="row">
+            <div className="col-md-4 text-center my-2">
+              <div className="project-box">
+                <h5 className="ff-jose my-1 project-title text-sm">Producer-Consumer Application with Interprocess Communication</h5>
+                <p className="text-white project-description">
+                Developed a Producer-Consumer system in C using fork(), pipe(), and exec() system calls for inter-process communication. The Producer encodes data with parity and frames, while the Consumer converts lowercase to uppercase and re-encodes it. Implemented a layered architecture for encoding, decoding, and error handling with parity checks, ensuring seamless and accurate data transmission.
+                 </p>
+                <div className="row d-flex justify-content-center">
+                  <a href="https://github.com/CharanKasala/Producer_Consumer_Application.git" className="portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub /> Link  </a>
+                </div>
+              </div>
+            </div>
+{/*}
             <div className="col-md-4 text-center my-2">
               <div className="project-box">
                 <h5 className="ff-jose my-1 project-title"></h5>
@@ -69,9 +81,24 @@ function Projects() {
                   <a href="" className="portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub /> Link  </a>
                 </div>
               </div>
-            </div
+            </div>
+
+            <div className="col-md-4 text-center my-2">
+              <div className="project-box">
+                <h5 className="ff-jose my-1 project-title"></h5>
+                <p className="text-white project-description">
+                 
+                 </p>
+                <div className="row d-flex justify-content-center">
+                  <a href="" className="portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub /> Link  </a>
+                </div>
+              </div>
+            </div> */}
+
           </div>
-*/}
+
+          
+
         </div>
       </div>
     </Fragment>

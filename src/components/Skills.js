@@ -16,18 +16,12 @@ function Languages() {
   return (
     <div className="Languages-section"  >
       <div className="row my-2">
-      <h1 className="font-small text-red slide-in-top">Languages</h1>
+      <h1 className="font-small text-red slide-in-top">Programming Languages</h1>
         {[
           { name: ' Python', img: `${process.env.PUBLIC_URL}/images/python.png` },
           { name: ' Java', img: `${process.env.PUBLIC_URL}/images/java.svg` },
           { name: '  C', img: `${process.env.PUBLIC_URL}/images/c.png`},
-          { name: ' Java Server Pages', img: `${process.env.PUBLIC_URL}/images/jsp.png`},
-          { name: ' HTML', img: `${process.env.PUBLIC_URL}/images/html.png`},
-          { name: ' CSS', img: `${process.env.PUBLIC_URL}/images/css.png`},
           { name: ' Java Script', img: `${process.env.PUBLIC_URL}/images/js.png`},
-          { name: ' Node', img: `${process.env.PUBLIC_URL}/images/nodejs.svg`},
-          { name: ' React', img: `${process.env.PUBLIC_URL}/images/reactjs.svg`},
-          { name: ' Express', img: `${process.env.PUBLIC_URL}/images/expressjs.png`},
           
           
         ].map((lang, index) => (
@@ -43,6 +37,32 @@ function Languages() {
   );
 }
 
+function WebDev() {
+  return (
+    <div className="Languages-section"  >
+      <div className="row my-2">
+      <h1 className="font-small text-red slide-in-top">Web Development</h1>
+        {[
+          { name: ' Node', img: `${process.env.PUBLIC_URL}/images/nodejs.svg`},
+          { name: ' React', img: `${process.env.PUBLIC_URL}/images/reactjs.svg`},
+          { name: ' Express', img: `${process.env.PUBLIC_URL}/images/expressjs.png`},
+          { name: ' HTML', img: `${process.env.PUBLIC_URL}/images/html.png`},
+          { name: ' CSS', img: `${process.env.PUBLIC_URL}/images/css.png`},
+          { name: ' Java Server Pages', img: `${process.env.PUBLIC_URL}/images/jsp.png`},       
+          
+          
+        ].map((webdev, index) => (
+          <div key={index} className="mx-2 my-3 border rounded py-1 px-2 mw-fc">
+            <span>
+              <img src={webdev.img} alt={webdev.name} className="tech-icon" />
+              {webdev.name}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 function Databases() {
   return (
@@ -50,6 +70,7 @@ function Databases() {
       <div className="row my-2">
         <h1 className="font-small text-red slide-in-top">Databases</h1>
         {[
+          { name: 'SQL', img: `${process.env.PUBLIC_URL}/images/sql.svg`},
           { name: 'MySQL', img: `${process.env.PUBLIC_URL}/images/mysql.svg`},
           { name: 'MongoDB', img: `${process.env.PUBLIC_URL}/images/mongodb.svg`},
           { name: 'PostgreSQL', img: `${process.env.PUBLIC_URL}/images/postgresql.svg`},
@@ -113,6 +134,29 @@ function CloudComp() {
   );
 }
 
+function Libraries() {
+  return (
+    <div className="AppServ-section">
+      <div className="row my-2">
+        <h1 className="font-small text-red slide-in-top"> Libraries</h1>
+        {[
+          { name: '  pandas', img: `${process.env.PUBLIC_URL}/images/pandas.png`},
+          { name: '  NumPy', img: `${process.env.PUBLIC_URL}/images/numpy.png`},
+          { name: '  Sci-kit learn', img: `${process.env.PUBLIC_URL}/images/ski-kit.png`},
+        ].map((lib, index) => (
+          <div key={index} className="mx-2 my-3 border rounded py-1 px-2 mw-fc">
+            <span>
+              <img src={lib.img} alt={lib.name} className="tech-icon" />
+              {lib.name}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+
 function AppServ() {
   return (
     <div className="AppServ-section">
@@ -143,9 +187,11 @@ function Skills() {
             <div className="col-lg-12 col-md-12 col-sm-12">
               <Header />
               <Languages />
+              <WebDev/>
               <Databases />
               <TechFw/>
               <CloudComp/>
+              <Libraries/>
               <AppServ/>
             </div>
             {/* <div className="col-lg-6 col-md-12 col-sm-12">
