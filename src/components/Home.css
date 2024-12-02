@@ -88,3 +88,27 @@
     color: white;  
     padding: 20px 0; 
   }
+
+  .wave-image {
+    width: 50px; 
+    height: auto; 
+    animation: wave 1s infinite ease-in-out;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    75% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }

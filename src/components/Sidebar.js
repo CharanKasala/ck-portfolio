@@ -17,6 +17,9 @@ function Sidebar() {
                     <Link to="/" className="d-flex align-items-center pb-1 mb-md-0 me-md-auto text-white text-decoration-none">
                         <span className="fs-5 d-none d-sm-inline ff-jost fw-600"></span>
                     </Link>
+                    <Link to="/home" className="fs-4 text-center text-white mb-3 text-decoration-none">
+                    Charan Kasala
+                    </Link>
                     <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                         <li className="nav-item">
                             <NavLink to="/home" className="nav-link align-middle px-0 text-white">

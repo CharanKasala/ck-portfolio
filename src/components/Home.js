@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-
+import './Home.css';
 function Home() {
   return (
     <Fragment>
@@ -9,7 +9,7 @@ function Home() {
             <div className="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
               <div>
                 <h1 className="m-0 font-big slide-in-top">Hello,</h1>
-                <h1 className="m-0 font-big animate-charcter"> This is Charan 👋</h1> 
+                <h1 className="m-0 font-big animate-charcter"> This is Charan <img src={`${process.env.PUBLIC_URL}/images/wave.webp`} className="inline-block wave-image" /></h1> 
                 <p></p>
                 <p className="ls-2 mt-2 slide-in-bottom">
                   I am a seasoned software professional with extensive experience in delivering innovative and scalable solutions. 
