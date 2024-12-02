@@ -34,7 +34,7 @@ function Projects() {
               <div className="project-box">
                 <h5 className="ff-jose my-1 project-title">Reliable File Transfer with Caching Using TCP and UDP</h5>
                 <p className="text-white project-description">
-                Designed and implemented a file transfer system using a client-server-cache architecture for efficient large file transfer. Utilized TCP with a custom Stop-and-Wait protocol over UDP for reliable data transmission and integrated caching to reduce server load, cutting retrieval times by 35%. Performance analysis with Wireshark showed a 30% improvement in data transfer efficiency
+                Designed and implemented a file transfer system using a client-server-cache architecture for efficient large file transfer. Utilized TCP and custom Stop-and-Wait protocol over UDP for reliable data transmission and integrated caching to reduce server load, cutting retrieval times by 35%. Performance analysis with Wireshark showed a 30% improvement in data transfer efficiency
                 </p>
                 <div className="row d-flex justify-content-center">
                   <a href="https://github.com/CharanKasala/File_Transfer_using_Cache_TCP_UDP.git" className="portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub /> Link  </a>
