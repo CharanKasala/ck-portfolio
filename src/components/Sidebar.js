@@ -45,7 +45,7 @@ function Sidebar() {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="https://drive.google.com/file/d/1QrzhK-MjxFR0tWb89xBNa5E-GUEOFA4K/view?usp=drive_link"className="nav-link align-middle px-0 text-white" 
+                            <a href="https://drive.google.com/file/d/1NUWHpJrimfZpNGknHAI4fGP_mR_wXu0e/view?usp=sharing"className="nav-link align-middle px-0 text-white" 
                              target="_blank" rel="noopener noreferrer" >
                                 <AiOutlineUnorderedList className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Resume</span></a>
                         </li>

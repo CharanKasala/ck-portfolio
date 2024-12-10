@@ -21,7 +21,8 @@ function Languages() {
           { name: ' Python', img: `${process.env.PUBLIC_URL}/images/python.png` },
           { name: ' Java', img: `${process.env.PUBLIC_URL}/images/java.svg` },
           { name: '  C', img: `${process.env.PUBLIC_URL}/images/c.png`},
-          { name: ' Java Script', img: `${process.env.PUBLIC_URL}/images/js.png`},
+          { name: ' JavaScript', img: `${process.env.PUBLIC_URL}/images/js.png`},
+          /*{ name: ' TypeScript', img: `${process.env.PUBLIC_URL}/images/js.png`},*/
           
           
         ].map((lang, index) => (

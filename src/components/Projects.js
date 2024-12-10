@@ -15,6 +15,22 @@ function Projects() {
           <hr />
           
           <div className="row">
+
+          <div className="col-md-4 text-center my-2">
+              <div className="project-box">
+                <h5 className="ff-jose my-1 project-title">NoteVault</h5>
+                <p className="text-white project-description">
+                Developed and deployed Note Vault, a cloud based note taking application for efficient note management, using React,Django and MongoDB for database management.
+                Key features include note categorization, search, exporting notes as Word documents, and user profile management.
+                Integrated AI-powered tools for summarization and spell-check, as well as speech-to-text for hands-free note-taking.
+                </p>
+                <div className="row d-flex justify-content-center">
+                  <a href="https://github.com/CharanKasala/NoteVault.git" className="portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub /> Link  </a>
+                </div>
+              </div>
+            </div>
+
+
             <div className="col-md-4 text-center my-2">
               <div className="project-box">
                 <h5 className="ff-jose my-1 project-title">Mall Management Made Easy</h5>
@@ -41,7 +57,9 @@ function Projects() {
                 </div>
               </div>
             </div>
+          </div>
 
+          <div className="row">
 
             <div className="col-md-4 text-center my-2">
               <div className="project-box">
@@ -56,14 +74,12 @@ function Projects() {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="row">
             <div className="col-md-4 text-center my-2">
               <div className="project-box">
-                <h5 className="ff-jose my-1 project-title text-sm">Producer-Consumer Application with Interprocess Communication</h5>
+                <h5 className="ff-jose my-1 project-title text-sm">Producer-Consumer Application with IPC</h5>
                 <p className="text-white project-description">
-                Developed a Producer-Consumer system in C using fork(), pipe(), and exec() system calls for inter-process communication. The Producer encodes data with parity and frames, while the Consumer converts lowercase to uppercase and re-encodes it. Implemented a layered architecture for encoding, decoding, and error handling with parity checks, ensuring seamless and accurate data transmission.
+                Developed a Producer-Consumer system in C language using system calls for inter-process communication. The Producer encodes data with parity and frames, the Consumer converts lowercase to uppercase and re-encodes it. Implemented a layered architecture for encoding, decoding, and error handling with parity checks, ensuring seamless and accurate data transmission.
                  </p>
                 <div className="row d-flex justify-content-center">
                   <a href="https://github.com/CharanKasala/Producer_Consumer_Application.git" className="portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub /> Link  </a>
@@ -81,19 +97,7 @@ function Projects() {
                   <a href="" className="portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub /> Link  </a>
                 </div>
               </div>
-            </div>
-
-            <div className="col-md-4 text-center my-2">
-              <div className="project-box">
-                <h5 className="ff-jose my-1 project-title"></h5>
-                <p className="text-white project-description">
-                 
-                 </p>
-                <div className="row d-flex justify-content-center">
-                  <a href="" className="portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub /> Link  </a>
-                </div>
-              </div>
-            </div> */}
+            </div>*/}
 
           </div>
 
